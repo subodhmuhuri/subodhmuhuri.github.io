@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Official personal website of Subodh Muhuri, featuring photos and personal links.">
+  <title>Subodh Muhuri | Personal Website</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #ffffff;
+      color: #252525;
+      text-align: center;
+    }
+
+    header {
+      padding: 55px 20px 30px;
+    }
+
+    h1 {
+      font-size: 34px;
+      margin-bottom: 10px;
+    }
+
+    .intro {
+      color: #777;
+      font-size: 16px;
+    }
+
+    main {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      margin: 25px 0;
+    }
+
+    .photo-placeholder {
+      min-height: 140px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #f5f5f5;
+      border: 1px solid #eeeeee;
+      border-radius: 12px;
+      color: #888;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      max-width: 380px;
+      margin: 25px auto;
+    }
+
+    .links a {
+      display: block;
+      padding: 14px;
+      border: 1px solid #e5e5e5;
+      border-radius: 10px;
+      color: #252525;
+      text-decoration: none;
+    }
+
+    .links a:hover {
+      background: #f7f7f7;
+    }
+
+    footer {
+      padding: 30px 15px;
+      color: #888;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Subodh Muhuri</h1>
+    <p class="intro">Welcome to my personal website.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>My Photos</h2>
+      <div class="gallery">
+        <div class="photo-placeholder">Photo 1</div>
+        <div class="photo-placeholder">Photo 2</div>
+        <div class="photo-placeholder">Photo 3</div>
+        <div class="photo-placeholder">Photo 4</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>My Links</h2>
+      <div class="links">
+        <a href="https://www.instagram.com/">Instagram</a>
+        <a href="https://www.facebook.com/">Facebook</a>
+        <a href="https://www.youtube.com/">YouTube</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Subodh Muhuri
+  </footer>
+</body>
+  </html>
